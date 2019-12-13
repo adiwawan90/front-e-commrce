@@ -1,0 +1,132 @@
+.container.warna {
+  background-color: black;
+  width: 100%;
+}
+
+.logo {
+  width: 70px !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.warna {
+  height: 70px;
+}
+
+a#navbarDropdown {
+  color: white;
+  text-transform: uppercase;
+}
+
+.header {
+  background-color: black;
+  height: 70px;
+}
+
+.jumlah {
+  background-color: peachpuff;
+  padding: 10px;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  color: black;
+  font-size: 10px;
+  line-height: 5px;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -45px;
+}
+
+span.isi {
+  font-size: 14px;
+  font-weight: bold;
+  color: darkblue;
+  margin-left: -3px;
+}
+
+/* --------Bottom Head-------- */
+.header-bottom {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  height: 35px;
+}
+
+.header-bottom .header-bottom-left {
+  float: left;
+  width: 185px;
+  height: 24px;
+  width: 800px;
+  float: left;
+}
+
+.header-bottom .header-bottom-left a:hover {
+  opacity: 0.6;
+  transition: 0.4s;
+  color: black;
+  text-decoration: underline;
+}
+
+.header-bottom .header-bottom-right {
+  background-color: rgb(190, 189, 189);
+  height: 24px;
+  width: 250px;
+  float: right;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.header-bottom .header-bottom-right:hover {
+  opacity: 0.6;
+  transition: 0.4s;
+  color: black;
+  background-color: gainsboro;
+}
+
+.header-bottom ul {
+  list-style-type: none;
+}
+
+.header-bottom ul li {
+  margin-right: 10px;
+  float: left;
+  width: 175px;
+}
+
+.header-bottom a {
+  line-height: 24px;
+  font-size: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700px;
+  text-decoration: none;
+  height: 79px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+/* banner */
+.image img {
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+  height: auto;
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  /* font-size: 0.8rem !important; */
+  color: darkblue;
+  /* border-radius: 0 !important; */
+  border: 0.1rem solid black;
+}
+
+.btn.btn-black:hover {
+  background: darkblue !important;
+  color: white !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: orangered
+}
